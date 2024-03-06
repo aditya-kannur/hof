@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .display-item, .user-type, .j-data, .age-data {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .display-item h2, .user-type h2, .j-data h2, .age-data h2 {
+    margin-top: 0;
+  }
+  
+  .user-type {
+    background-color: #1a1616;
+  }
+  
+  .j-data {
+    background-color: #1a1616;
+  }
+  
+  .age-data {
+    background-color: #1a1616;
+  }
+  
